@@ -10,8 +10,10 @@ DB_PASSWORD = 'Admin'
 DB_HOST = 'localhost'
 DB_PORT = 3306
 
-with open("GoogleOauth2.json") as jsonFile:
-    JSON_DATA=json.load(jsonFile)
+#with open("GoogleOauth2.json") as jsonFile:
+#    JSON_DATA=json.load(jsonFile)
 
-CLIENT_ID = JSON_DATA['client_id']
-CLIENT_SECRET = JSON_DATA['client_secret']
+#CLIENT_ID = JSON_DATA['client_id']
+#CLIENT_SECRET = JSON_DATA['client_secret']
+
+CLIENT_SECRET="ABCD"
